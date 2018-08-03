@@ -16,7 +16,7 @@
   </licenses>
 
   <artifactId>github-api</artifactId>
-  <version>1.90</version>
+  <version>1.90-NCO-980</version>
   <packaging>hpi</packaging>
   <name>GitHub API Plugin</name>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/GitHub+API+Plugin</url>
@@ -36,7 +36,7 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>github-api</artifactId>
-      <version>1.90</version>
+      <version>1.90-NCO-980</version>
       <exclusions>
         <exclusion>
           <groupId>commons-io</groupId>
@@ -72,6 +72,10 @@
     <repository>
       <id>repo.jenkins-ci.org</id>
       <url>https://repo.jenkins-ci.org/public/</url>
+    </repository>
+    <repository>
+      <id>thirdparty-releases</id>
+      <url>https://maven.nuxeo.org/nexus/content/groups/thirdparty-releases/</url>
     </repository>
   </repositories>
 
